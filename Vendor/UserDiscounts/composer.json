@@ -1,0 +1,31 @@
+{
+    "name": "vendor/user-discounts",
+    "description": "vendor/user-discounts",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\UserDiscounts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+        "providers": [
+            "Vendor\\UserDiscounts\\UserDiscountsServiceProvider"
+        ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "mehulkoradiya",
+            "email": "koradiyamehul@gmail.com"
+        }
+    ]
+}
