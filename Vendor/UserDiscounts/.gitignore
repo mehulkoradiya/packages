@@ -1,0 +1,40 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+/.env
+/.env.*
+.phpunit.result.cache
+/storage/
+/public/storage
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+composer.lock
+*.log
+*.sqlite
+*.bak
+*.tmp
+
+# OS generated files
+*.swp
+*.swo
+*.~
+
+# IDE & Editor files
+*.iml
+*.sublime*
+*.komodoproject
+*.tmproj
+*.project
+*.code-workspace
+
+# Test & Coverage
+coverage/
+.phpunit.cache
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
+*.7z
