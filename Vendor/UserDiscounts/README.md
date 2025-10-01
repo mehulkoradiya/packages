@@ -153,31 +153,7 @@ Run the package tests:
 
 ```bash
 cd packages/Vendor/UserDiscounts
-php artisan test
-```
-
-### Example Unit Test
-
-```php
-public function test_usage_cap_is_enforced()
-{
-    $user = User::factory()->create();
-    $discount = Discount::factory()->create([
-        'type' => 'fixed',
-        'value' => 50,
-        'per_user_limit' => 1,
-    ]);
-
-    $manager = app(DiscountManager::class);
-
-    // First apply works
-    $result1 = $manager->apply($user->id, 200);
-    $this->assertEquals(150, $result1['final']);
-
-    // Second apply does nothing (cap reached)
-    $result2 = $manager->apply($user->id, 200);
-    $this->assertEquals(200, $result2['final']);
-}
+vendor/bin/phpunit
 ```
 
 ---

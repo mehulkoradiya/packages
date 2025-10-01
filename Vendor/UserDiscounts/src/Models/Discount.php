@@ -10,4 +10,9 @@ class Discount extends Model
         'per_user_limit','max_uses','usage_count','stacking_priority','stackable','metadata'
     ];
     protected $casts = ['metadata'=>'array','starts_at'=>'datetime','ends_at'=>'datetime'];
+    
+    public function userDiscounts()
+    {
+        return $this->hasMany(UserDiscount::class, 'discount_id');
+    }
 }

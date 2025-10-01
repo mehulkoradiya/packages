@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
+class ComposerStaticInit035b8e0979b3b6023a600fa0717176d9
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
@@ -21,7 +21,6 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         '26c36baaceab0736027f3a13d83fc1a6' => __DIR__ . '/..' . '/orchestra/sidekick/src/functions.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
-        '606a39d89246991a373564698c2d8383' => __DIR__ . '/..' . '/symfony/polyfill-php85/bootstrap.php',
         '1ff88ee2daa64f07d9a89cd819aa198e' => __DIR__ . '/..' . '/orchestra/testbench-core/src/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '2203a247e6fda86070a5e4e07aed533a' => __DIR__ . '/..' . '/symfony/clock/Resources/now.php',
@@ -41,6 +40,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
+        '9d2b9fc6db0f153a0a149fefb182415e' => __DIR__ . '/..' . '/symfony/polyfill-php84/bootstrap.php',
         'c72349b1fe8d0deeedd3a52e8aa814d8' => __DIR__ . '/..' . '/mockery/mockery/library/helpers.php',
         'ce9671a430e4846b44e1c68c7611f9f5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -54,9 +54,11 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'W' => 
         array (
             'Whoops\\' => 7,
+            'Webmozart\\Assert\\' => 17,
         ),
         'V' => 
         array (
+            'Vendor\\UserDiscounts\\Tests\\' => 27,
             'Vendor\\UserDiscounts\\' => 21,
         ),
         'T' => 
@@ -67,7 +69,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'S' => 
         array (
             'Symfony\\Polyfill\\Uuid\\' => 22,
-            'Symfony\\Polyfill\\Php85\\' => 23,
+            'Symfony\\Polyfill\\Php84\\' => 23,
             'Symfony\\Polyfill\\Php83\\' => 23,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -197,6 +199,14 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
+        'Webmozart\\Assert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Vendor\\UserDiscounts\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'Vendor\\UserDiscounts\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -213,9 +223,9 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-uuid',
         ),
-        'Symfony\\Polyfill\\Php85\\' => 
+        'Symfony\\Polyfill\\Php84\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php85',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php84',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
@@ -400,8 +410,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         ),
         'Nette\\' => 
         array (
-            0 => __DIR__ . '/..' . '/nette/schema/src',
-            1 => __DIR__ . '/..' . '/nette/utils/src',
+            0 => __DIR__ . '/..' . '/nette/utils/src',
         ),
         'Monolog\\' => 
         array (
@@ -548,7 +557,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'DateMalformedStringException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateMalformedStringException.php',
         'DateObjectError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateObjectError.php',
         'DateRangeError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateRangeError.php',
-        'DelayedTargetValidation' => __DIR__ . '/..' . '/symfony/polyfill-php85/Resources/stubs/DelayedTargetValidation.php',
+        'Deprecated' => __DIR__ . '/..' . '/symfony/polyfill-php84/Resources/stubs/Deprecated.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -679,7 +688,6 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'Nette\\Utils\\Type' => __DIR__ . '/..' . '/nette/utils/src/Utils/Type.php',
         'Nette\\Utils\\UnknownImageFileException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Validators' => __DIR__ . '/..' . '/nette/utils/src/Utils/Validators.php',
-        'NoDiscard' => __DIR__ . '/..' . '/symfony/polyfill-php85/Resources/stubs/NoDiscard.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'Override' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/Override.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
@@ -1746,6 +1754,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'ReflectionConstant' => __DIR__ . '/..' . '/symfony/polyfill-php84/Resources/stubs/ReflectionConstant.php',
         'SQLite3Exception' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/SQLite3Exception.php',
         'SebastianBergmann\\CliParser\\AmbiguousOptionException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
         'SebastianBergmann\\CliParser\\Exception' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/Exception.php',
@@ -1895,6 +1904,7 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
         'SebastianBergmann\\Diff\\Diff' => __DIR__ . '/..' . '/sebastian/diff/src/Diff.php',
         'SebastianBergmann\\Diff\\Differ' => __DIR__ . '/..' . '/sebastian/diff/src/Differ.php',
         'SebastianBergmann\\Diff\\Exception' => __DIR__ . '/..' . '/sebastian/diff/src/Exception/Exception.php',
+        'SebastianBergmann\\Diff\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/diff/src/Exception/InvalidArgumentException.php',
         'SebastianBergmann\\Diff\\Line' => __DIR__ . '/..' . '/sebastian/diff/src/Line.php',
         'SebastianBergmann\\Diff\\LongestCommonSubsequenceCalculator' => __DIR__ . '/..' . '/sebastian/diff/src/LongestCommonSubsequenceCalculator.php',
         'SebastianBergmann\\Diff\\MemoryEfficientLongestCommonSubsequenceCalculator' => __DIR__ . '/..' . '/sebastian/diff/src/MemoryEfficientLongestCommonSubsequenceCalculator.php',
@@ -1981,9 +1991,9 @@ class ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit37f48b43754f5615e718a936ba5a3e9b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit035b8e0979b3b6023a600fa0717176d9::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit035b8e0979b3b6023a600fa0717176d9::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit035b8e0979b3b6023a600fa0717176d9::$classMap;
 
         }, null, ClassLoader::class);
     }
